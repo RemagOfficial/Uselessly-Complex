@@ -1,0 +1,16 @@
+{
+  "group": "bakingsoda",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "useless:sodium_carbonate"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "useless:wet_sodium_carbonate",
+    "count": 1
+  }
+}

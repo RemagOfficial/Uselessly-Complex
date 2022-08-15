@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "useless:trona_ore"
+    }
+  ],
+  "result": {
+    "item": "useless:crushed_trona",
+    "count": 4
+  }
+}
