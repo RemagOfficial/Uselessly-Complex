@@ -1,8 +1,8 @@
 package com.remag.useless.event;
 
+import com.remag.useless.util.ModTags;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import com.remag.useless.util.ModTags;
 
 
 public class ModEvents
