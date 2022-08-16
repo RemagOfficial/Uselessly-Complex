@@ -53,7 +53,7 @@ public class TabbedItems {
     }
 
     public enum ModItemTier implements IItemTier {
-        HATCHET_TOOL(1, 100, 0.5f, 4, 2,
+        HATCHET_TOOL(1, 100, 0.5f, 0.5f, 2,
                 Ingredient.of(new ItemStack(TabbedItems.PEBBLE.get())));
 
         private final int harvestLevel;
@@ -100,7 +100,7 @@ public class TabbedItems {
 
         @Override
         public Ingredient getRepairIngredient() {
-            return Ingredient.of(new ItemStack(TabbedItems.PEBBLE.get(), (int) (1)));
+            return repairMaterial;
         }
     }
 }
