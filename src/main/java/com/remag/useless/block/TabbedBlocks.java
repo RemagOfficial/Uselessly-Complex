@@ -21,6 +21,16 @@ public class TabbedBlocks
                     .strength(1.5f, 1.5f)
                     .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
 
+    public static final RegistryObject<Block> JUICER = register("juicer",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE)
+                    .strength(1.5f, 1.5f)
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> CENTRIFUGE = register("centrifuge",
+            () -> new Block(AbstractBlock.Properties.of(Material.STONE)
+                    .strength(1.5f, 1.5f)
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
     public static void register() { }
 
     private static <T extends Block>RegistryObject<T> register(String name, Supplier<T> block)

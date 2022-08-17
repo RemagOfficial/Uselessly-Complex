@@ -18,17 +18,21 @@ public class TabbedItems {
             Registration.ITEMS.register("baking_soda",
                     () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
 
+
     public static final RegistryObject<Item> CRUSHED_TRONA =
             Registration.ITEMS.register("crushed_trona",
                     () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
 
     public static final RegistryObject<Item> SODIUM_CARBONATE =
             Registration.ITEMS.register("sodium_carbonate",
                     () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
 
+
     public static final RegistryObject<Item> WET_SODIUM_CARBONATE =
             Registration.ITEMS.register("wet_sodium_carbonate",
                     () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
 
     public static final RegistryObject<Item> FLOUR =
             Registration.ITEMS.register("flour",
@@ -36,6 +40,59 @@ public class TabbedItems {
 
     public static final RegistryObject<Item> PEBBLE =
             Registration.ITEMS.register("pebble",
+                    () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
+
+    public static final RegistryObject<Item> CLEAN_SUGAR_CANE =
+            Registration.ITEMS.register("clean_sugar_cane",
+                    () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
+
+    public static final RegistryObject<Item> CUT_CLEAN_SUGAR_CANE =
+            Registration.ITEMS.register("cut_clean_sugar_cane",
+                    () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
+
+    public static final RegistryObject<Item> SUGAR_CANE_FIBERS =
+            Registration.ITEMS.register("sugar_cane_fibers",
+                    () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
+
+    public static final RegistryObject<Item> UNREFINED_SUGAR_WATER =
+            Registration.ITEMS.register("unrefined_sugar_water",
+                    () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
+
+    public static final RegistryObject<Item> SUGAR_WATER =
+            Registration.ITEMS.register("sugar_water",
+                    () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
+    public static final RegistryObject<Item> BOTTLE_OF_CREAM =
+            Registration.ITEMS.register("bottle_of_cream",
+                    () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
+
+    public static final RegistryObject<Item> HOT_MILK =
+            Registration.ITEMS.register("hot_milk",
+                    () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
+
+    public static final RegistryObject<Item> BUTTER =
+            Registration.ITEMS.register("butter",
+                    () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
+
+    public static final RegistryObject<Item> BUTTERCREAM =
+            Registration.ITEMS.register("buttercream",
+                    () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
+    public static final RegistryObject<Item> SUGARY_FLOUR =
+            Registration.ITEMS.register("sugary_flour",
+                    () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
+
+
+    public static final RegistryObject<Item> CAKE_BATTER =
+            Registration.ITEMS.register("cake_batter",
                     () -> new Item(new Item.Properties().tab(UselesslyComplex.USELESS_TAB)));
 
     /* TOOLS */
