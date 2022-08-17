@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "useless:flour"
+    },
+    {
+      "item": "useless:baking_soda"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "useless:sugary_flour",
+    "count": 3
+  }
+}

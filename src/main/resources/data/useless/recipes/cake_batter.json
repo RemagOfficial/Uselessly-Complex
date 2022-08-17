@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "useless:butter"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "useless:sugary_flour"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "useless:cake_batter",
+    "count": 1
+  }
+}
